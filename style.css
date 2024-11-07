@@ -60,6 +60,10 @@ nav .right a span {
 }
 
 /* SECTION 1: Hero */
+.text {
+  text-align: justify;
+}
+
 .hero-section {
   display: flex;
   justify-content: space-between;
@@ -115,12 +119,12 @@ nav .right a span {
 }
 
 .skills-section h2 {
-  text-align: center;
   font-size: 35px;
+  margin-bottom: 30px;
 }
 
 .skills-section .text {
-  text-align: center;
+  flex: 8;
   margin-bottom: 20px;
 }
 
